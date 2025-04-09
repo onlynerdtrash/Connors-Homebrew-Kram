@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-  <info>
-    <update version="1.0">
-      <file name="Connors Homebrew Kram.index" url="https://github.com/onlynerdtrash/Connors-Homebrew-Kram/blob/main/Connors%20Homebrew%20Kram.index" />
+        <info>
+              <name>Connors Homebrew Kram</name>
+              <update version="1.0">
+                      <file name="Connors Homebrew Kram.index" url="https://github.com/onlynerdtrash/Connors-Homebrew-Kram/blob/main/Connors%20Homebrew%20Kram.index" />
     </update>
   </info>
   <files>
