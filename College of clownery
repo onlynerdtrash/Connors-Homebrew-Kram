@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>College of Clownery</name>
+    <description>Bards of the College of Clownery blend humor and horror, manipulating emotions to create both terror and laughter.</description>
+    <author name="m0nkeyDM">Homebrew</author>
+    <update version="0.0.1">
+      <file name="bard-college-of-clownery.xml" url=""/>
+    </update>
+  </info>
+  <element name="College of Clownery" type="Archetype" source="Homebrew" id="ID_HOMEBREW_COLLEGE_OF_CLOWNERY">
+    <supports>Bard College</supports>
+    <description>
+      <p>Bards of the College of Clownery blend humor and horror in their performances, walking a fine line between laughter and terror. These bards are skilled manipulators of emotion, using unsettling humor and nightmarish illusions to influence crowds or unsettle their enemies.</p>
+      <div element="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP"/>
+      <div element="ID_HOMEBREW_FEATURE_BALLOONCRAFTING"/>
+      <div element="ID_HOMEBREW_FEATURE_JUMPSCARE"/>
+      <div element="ID_HOMEBREW_FEATURE_IMPROVED_BALLOONCRAFTING"/>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_BALLOONCRAFTING" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_JUMPSCARE" level="6"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_IMPROVED_BALLOONCRAFTING" level="14"/>
+    </rules>
+
+
+  </element>
+  <element name="Eldritch Makeup" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP">
+    <description>
+      <p><em>3rd-level College of Clownery feature</em></p>
+      <p>When you join this college at 3rd level, you learn the art of clown makeup. You gain proficiency with disguise kits. During a short or long rest, if you have a disguise kit, you can use it to apply one of the following eldritch makeup patterns on your faces
+Face of Terror, Your makeup takes on a twisted, horrifying visage. Whenever a creature fails a saving throw against one of your spells, it must, immediately use its reaction, if available, to move as far as its speed allows away from you. You have disadvantage on all Charisma checks.
+Grinning Madness. Your makeup features an unnervingly wide grin that stretches far beyond normal limits, exuding an aura of chantic energy. When you roll a Charisma check, you can add your Bardic Inspiration die to the roll without expending it. You have disadvantage on Wisdom saving throws,
+Pallor of the Grave. Your makeup gives you a deathly pallor, making you appear as a lifeless, ghastly figure. You have resistance to necrotic damage, as well as to bludgeoning, piercing, and slashing damage from nonmagical sources. You have disadvantage on Constitution saving throws made to maintain concentration on spells.
+This makeup remains on your face for 8 hours or until you take a short or long rest to reapply it.</p>
+    </description>
+    <sheet>
+      <description>
+         Face of Terror: Creatures that fail a saving throw against one of your spells must use their reaction to move away from you. You have disadvantage on all Charisma checks.
+         Grinning Madness: When you roll a Charisma check, you can add your Bardic Inspiration die without expending it. You have disadvantage on Wisdom saving throws.
+         Pallor of the Grave: You gain resistance to necrotic damage and to nonmagical bludgeoning, piercing, and slashing damage. You have disadvantage on Constitution saving throws to maintain concentration.
+
+      This makeup lasts for 8 hours or until you take a short or long rest to reapply it.
+
+    
+      </description>
+    </sheet>
+  </element>
+
+  <!-- Ballooncrafting (Level 3) -->
+  <element name="Ballooncrafting" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_FEATURE_BALLOONCRAFTING">
+    <description>
+      <p><em>3rd-level College of Clownery feature</em></p>
+      <p>Also at 3rd level, whenever you expend a use of your Bardic Inspiration, you leave behind a spectral balloon that floats in that space, or in the target's space. Whenever a hostile creature moves within 10 feet of the balloon or starts its turn within 10 feet of it, the balloon explodes, affecting each hostile creature within 10 feet of it with one of the following effects, which you choose secretly when you create the balloon:</p>
+      <p>  Balloon of Dread. When this balloon explodes, each hostile creature in its area must succeed on a Wisdom saving throw against your spell save DC or become frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itselt on a success.</p>
+      <p>  Balloon of Laughter. When this balloon explodes, each hostile creature in its area must succeed on an Intelligence saving throw against your spell save DC or become incapacitated with laughter until the end of its next turn.</p>
+      <p>  Balloon of Sorrow. When this balloon explodes, each hostile creature in its area must succeed on a Charisma saving throw against your spell save DC or become sorrowful for 1 minute. While sorrowful, a creature has disadvantage on all attack rolls. An affected: creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success, </p>
+      <p>  After 1 minute, the balloon harmlessly pops and disappears.</p>
+      <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+    </description>
+
+    <sheet>
+      <description>
+        <p>When you expend a use of Bardic Inspiration, you leave behind a spectral balloon in your or the target's space. When a hostile creature comes within 10 feet of it or starts its turn there, the balloon explodes with one of the following secretly chosen effects:</p>
+          Balloon of Dread: Each hostile creature in the area must succeed on a Wisdom saving throw against your spell save DC or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+          Balloon of Laughter: Balloon of Laughter: Each hostile creature in the area must succeed on an Intelligence saving throw against your spell save DC or become incapacitated with laughter until the end of its next turn.
+          Balloon of Sorrow: Each hostile creature in the area must succeed on a Charisma saving throw against your spell save DC or become sorrowful for 1 minute. While sorrowful, a creature has disadvantage on all attack rolls. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+      <p>The balloon harmlessly pops and disappears after 1 minute.</p>
+      </description>
+    </sheet>
+  </element>
+
+  <!-- Jumpscare (Level 6) -->
+  <element name="Jumpscare" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_FEATURE_JUMPSCARE">
+    <description>
+      <p><em>6th-level College of Clownery feature</em></p>
+      <p>When a balloon explodes and you're within 30 feet of it, you can use your reaction to teleport to a space within 5 feet of it. If you do, hostile creatures have disadvantage on their saving throw against the balloon's effect.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Whenever one of your balloons explodes while you are within 30 feet of it, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the balloon. If you do, hostile creatures within the radius of the explosion have disadvantage on their saving throws against the balloon.</p>
+      
+      </description>
+    </sheet>  
+  </element>
+
+  <!-- Improved Ballooncrafting (Level 14) -->
+  <element name="Improved Ballooncrafting" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_FEATURE_IMPROVED_BALLOONCRAFTING">
+    <description>
+      <p><em>14th-level College of Clownery feature</em></p>
+      <p>Beginning at 14th level, the radius of the explosion of your balloons increases to 30 feet, and you can teleport using your Jumpscare feature from up to 60 feet away from one of your balloons.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>The radius of the explosion of your balloons increases to 30 feet, and you can teleport using your Jumpscare feature from up to 60 feet away from one of your balloons.</p>
+      </description>
+    </sheet>
+  </element>
+</elements>
