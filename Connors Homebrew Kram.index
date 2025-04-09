@@ -3,10 +3,10 @@
         <info>
               <name>Connors Homebrew Kram</name>
               <update version="1.0">
-                      <file name="Connors Homebrew Kram.index" url="https://github.com/onlynerdtrash/Connors-Homebrew-Kram/blob/main/Connors%20Homebrew%20Kram.index" />
-    </update>
-  </info>
-  <files>
-    <file name="college of clownery.xml" url="https://github.com/onlynerdtrash/Connors-Homebrew-Kram/blob/main/college%20of%20clownery.xml" />
-  </files>
+                      <file name="Connors Homebrew Kram.index" url="https://raw.githubusercontent.com/onlynerdtrash/Connors-Homebrew-Kram/refs/heads/main/Connors%20Homebrew%20Kram.index" />
+              </update>
+        </info>
+        <files>
+                <file name="college of clownery.xml" url="hhttps://raw.githubusercontent.com/onlynerdtrash/Connors-Homebrew-Kram/refs/heads/main/college%20of%20clownery.xml" />
+        </files>
 </index>
