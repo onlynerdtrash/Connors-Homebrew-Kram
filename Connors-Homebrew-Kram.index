@@ -3,7 +3,7 @@
         <info>
               <name>Connors Homebrew Kram</name>
                 <update version="0.0.1">
-                      <file name= "Connors-Homebrew-Kram.index" url="https://raw.githubusercontent.com/onlynerdtrash/Connors-Homebrew-Kram/refs/heads/main/Connors-Homebrew-Kram.index" />
+                      <file name="Connors-Homebrew-Kram.index" url="https://raw.githubusercontent.com/onlynerdtrash/Connors-Homebrew-Kram/refs/heads/main/Connors-Homebrew-Kram.index" />
                 </update>
         </info>
         <files>
