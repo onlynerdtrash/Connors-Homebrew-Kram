@@ -14,12 +14,14 @@
       <p>Bards of the College of Clownery blend humor and horror in their performances, walking a fine line between laughter and terror. These bards are skilled manipulators of emotion, using unsettling humor and nightmarish illusions to influence crowds or unsettle their enemies.</p>
       <div element="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP"/>
       <div element="ID_HOMEBREW_FEATURE_BALLOONCRAFTING"/>
+      <div element="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP_BONUS_PROFICIENCIES"/>
       <div element="ID_HOMEBREW_FEATURE_JUMPSCARE"/>
       <div element="ID_HOMEBREW_FEATURE_IMPROVED_BALLOONCRAFTING"/>
     </description>
     <sheet display="false"/>
     <rules>
       <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP_BONUS_PROFICIENCIES" level="3"/>
       <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_BALLOONCRAFTING" level="3"/>
       <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_JUMPSCARE" level="6"/>
       <grant type="Archetype Feature" id="ID_HOMEBREW_FEATURE_IMPROVED_BALLOONCRAFTING" level="14"/>
@@ -47,6 +49,17 @@ This makeup remains on your face for 8 hours or until you take a short or long r
     
       </description>
     </sheet>
+  </element>
+  <!-- Bonus Proficiency -->
+  <element name="Bonus Proficiency: Disguise Kit" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_FEATURE_ELDRITCH_MAKEUP_BONUS_PROFICIENCIES">
+  <description>
+    <p><em>3rd-level College of Clownery feature</em></p>
+    <p>You gain proficiency with the Disguise Kit.</p>
+  </description>
+  <sheet display="false"/>
+  <rules>
+    <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT"/>
+  </rules>
   </element>
 
   <!-- Ballooncrafting (Level 3) -->
